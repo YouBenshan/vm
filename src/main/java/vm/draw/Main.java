@@ -1,7 +1,7 @@
 package vm.draw;
 
 /**
- * Question:
+ * <p><strong>Question:</strong>
  * Consider the following design problem and come up with a class hierarchy:
  * Given a drawing mechanism, we always need to invoke some preprocessing before
  * drawing, and postprocessing after drawing, and also each user will draw
