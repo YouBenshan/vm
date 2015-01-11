@@ -4,9 +4,6 @@
 	<groupId>youyu</groupId>
 	<artifactId>vm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -20,4 +17,17 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
